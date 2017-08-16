@@ -13,6 +13,7 @@
 		1F3379D11F43F92200C16204 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F3379D01F43F92200C16204 /* Assets.xcassets */; };
 		1F3379D41F43F92200C16204 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F3379D21F43F92200C16204 /* LaunchScreen.storyboard */; };
 		1F3379D71F43F92200C16204 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3379D61F43F92200C16204 /* main.m */; };
+		1F3379DF1F43F93700C16204 /* UncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F3379DE1F43F93700C16204 /* UncaughtExceptionHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		1F3379D31F43F92200C16204 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F3379D51F43F92200C16204 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F3379D61F43F92200C16204 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F3379DD1F43F93700C16204 /* UncaughtExceptionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		1F3379DE1F43F93700C16204 /* UncaughtExceptionHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UncaughtExceptionHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		1F3379C61F43F92200C16204 /* crashCapture */ = {
 			isa = PBXGroup;
 			children = (
+				1F3379DD1F43F93700C16204 /* UncaughtExceptionHandler.h */,
+				1F3379DE1F43F93700C16204 /* UncaughtExceptionHandler.m */,
 				1F3379C71F43F92200C16204 /* AppDelegate.h */,
 				1F3379C81F43F92200C16204 /* AppDelegate.m */,
 				1F3379CA1F43F92200C16204 /* ViewController.h */,
@@ -142,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F3379CC1F43F92200C16204 /* ViewController.m in Sources */,
+				1F3379DF1F43F93700C16204 /* UncaughtExceptionHandler.m in Sources */,
 				1F3379D71F43F92200C16204 /* main.m in Sources */,
 				1F3379C91F43F92200C16204 /* AppDelegate.m in Sources */,
 			);
